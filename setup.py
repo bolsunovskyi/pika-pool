@@ -18,7 +18,7 @@ setuptools.setup(
     long_description=open('README.rst').read(),
     py_modules=['pika_pool'],
     include_package_data=True,
-    package_dir={'': 'src'},
+    # package_dir={'': 'src'},
     platforms='any',
     install_requires=[
         'pika >=0.9',
